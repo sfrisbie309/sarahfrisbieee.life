@@ -143,7 +143,9 @@ img {
 
 .profile-real-name;
 .profile-stat-count;
-.profile-link {text-decoration: none;
+a.profile-link-one {text-decoration: none;
+                color: #1A5089;}
+a.profile-link-two {text-decoration: none;
                 color: #1A5089;}
 .profile-edit-btn {
     font-weight: 600;}
@@ -155,6 +157,7 @@ img {
 .gallery {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin: -1rem -1rem;
     padding-bottom: 3rem;
 }
@@ -204,11 +207,13 @@ img {
 .fa-clone,
 .fa-comment {
     transform: rotateY(180deg);
+
 }
 
+iframe{display: block margin:0 auto;}
 .gallery-image {
-    width: 203px;
-    height: 152px;
+    width: 203px !important;
+    height: 152px !important;
     object-fit: contain;
 }
 
